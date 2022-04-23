@@ -1,0 +1,25 @@
+{
+    "name": "charley/laratool",
+    "description": "a common tool base on laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Charley\\Laratool\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "charleychan",
+            "email": "249662192@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "laravel/framework": "^6.20.26",
+        "laravel/tinker": "^2.5"
+    }
+}
