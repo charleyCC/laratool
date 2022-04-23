@@ -1,6 +1,6 @@
 # Laratool
 
-Laratool is a common tool base on laravel
+Laratool is a common tool base on laravel (test)
 
 ## Installing
 
