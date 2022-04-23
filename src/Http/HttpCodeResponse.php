@@ -21,7 +21,7 @@ class  HttpCodeResponse
     /*-------------------------------------------------------------------------------------------*/
     // 200表示服务器成功地接受了客户端请求
     const HTTP_SUCCESS = [20000, '成功'];
-    const HTTP_ERROR = [20001, '失败'];
+    const HTTP_FAIL = [20001, '失败'];
     const HTTP_ACTION_COUNT_ERROR = [20302, '操作频繁'];
     const USER_LOGIN_SUCCESS = [20200, '登录成功'];
     const USER_LOGIN_ERROR = [20201, '登录失败'];

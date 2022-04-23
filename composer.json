@@ -6,7 +6,10 @@
     "autoload": {
         "psr-4": {
             "Charley\\Laratool\\": "src/"
-        }
+        },
+        "files": [
+            "src/Foundation/helpers.php"
+        ]
     },
     "authors": [
         {
@@ -18,7 +21,9 @@
     "require": {
         "php": "^7.2",
         "ext-json": "*",
-        "ext-openssl": "*",
+        "ext-openssl": "*"
+    },
+    "require-dev": {
         "laravel/framework": "^6.20.26",
         "laravel/tinker": "^2.5"
     }
