@@ -5,10 +5,10 @@
  * Time: 10:39 下午
  **/
 
-namespace Charley\Laratool\Service;
+namespace Charleychan\Laratool\Service;
 
 
-use Charley\Laratool\Exception\BusinessException;
+use Charleychan\Laratool\Exception\BusinessException;
 
 class BaseService
 {

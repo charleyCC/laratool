@@ -5,7 +5,7 @@
  * Time: 10:43 下午
  **/
 
-namespace Charley\Laratool\Http;
+namespace Charleychan\Laratool\Http;
 
 
 class  HttpCodeResponse

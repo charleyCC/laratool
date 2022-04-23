@@ -1,11 +1,11 @@
 {
-    "name": "charley/laratool",
+    "name": "charleychan/laratool",
     "description": "a common tool base on laravel",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Charley\\Laratool\\": "src/"
+            "Charleychan\\Laratool\\": "src/"
         },
         "files": [
             "src/Foundation/helpers.php"

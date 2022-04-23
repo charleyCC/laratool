@@ -5,7 +5,7 @@
  * Time: 10:50 下午
  **/
 
-namespace Charley\Laratool\Http;
+namespace Charleychan\Laratool\Http;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;

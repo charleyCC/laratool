@@ -5,7 +5,7 @@ Laratool is a common tool base on laravel
 ## Installing
 
 ```bash
-composer require charley/laratool
+composer require charleychan/laratool
 ```
 
 ## License

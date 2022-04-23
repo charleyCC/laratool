@@ -5,7 +5,7 @@
  * Time: 10:41 下午
  **/
 
-namespace Charley\Laratool\Exception;
+namespace Charleychan\Laratool\Exception;
 
 
 class BusinessException extends \Exception
