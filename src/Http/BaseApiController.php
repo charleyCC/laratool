@@ -28,12 +28,12 @@ class BaseApiController extends BaseController
     }
 
     /**
+     * @param array $codeResponse
      * @param string $message
      * @param array $data
-     * @param array $codeResponse
      * @return \Illuminate\Http\JsonResponse
      */
-    public function fail(string $message = '', array $data = [], array $codeResponse = HttpCodeResponse::HTTP_FAIL)
+    public function fail(array $codeResponse = HttpCodeResponse::HTTP_FAIL, string $message = '', array $data = [])
     {
         list($code, $msg) = $codeResponse;
         return responseJson($code, $message ?: $msg, $data, false);
