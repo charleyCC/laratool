@@ -82,6 +82,9 @@ class  HttpCodeResponse
     const SERVICE_LOGIN_ACCOUNT_ERROR = [50103, '账号或密码错误'];
     const SERVICE_USER_INTEGRAL_ERROR = [50200, '积分不足'];
 
+    //幂等性
+    const IDEMPOTENCY_LIMIT = [50201, '请勿重复操作'];
+
     //501 - 页眉值指定了未实现的配置
     //502 - Web 服务器用作网关或代理服务器时收到了无效响应
     //503 - 服务不可用。这个错误代码为 IIS 6.0 所专用
